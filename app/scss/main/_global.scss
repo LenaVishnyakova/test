@@ -1,0 +1,23 @@
+@use './vars';
+
+html, body {
+    height: 100%;
+
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: vars.$black;
+}
+
+.container {
+    margin: 0 auto;
+
+    max-width: 1920px;
+    height: 100%;
+
+    overflow-x: hidden;
+}
+
+.content {
+    display: flex;
+}

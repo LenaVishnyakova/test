@@ -1,0 +1,27 @@
+@use "../main/vars";
+
+.slick-dots {
+  top: 440px;
+  left: -147px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-dots li {
+  width: 4px;
+  height: 42px;
+
+  background-color: #e5e5e5;
+}
+
+.slick-dots li.slick-active {
+  background-color: vars.$brown;
+  border-radius: 2px;
+}
+
+.slick-next {
+    width: 58px;
+    height: 79px;
+    border: 2px solid vars.$brown;
+    border-radius: 50px;
+}
